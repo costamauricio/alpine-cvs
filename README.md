@@ -25,5 +25,5 @@ $CVS_PASSWD #cvspass
 RUN
 ---
 ```console
-docker run -d 2401:2401 alpine-cvs
+docker run -d -p 2401:2401 alpine-cvs
 ```
