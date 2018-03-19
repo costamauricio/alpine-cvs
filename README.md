@@ -34,8 +34,10 @@ DEPLOY
 sh deploy.sh
 ```
 
-Verify container
-docker ps
+### Verify container
 
-Stop container
-docker container stop {CONTAINER_ID}
+`docker ps`
+
+### Stop container
+
+` docker container stop "{CONTAINER_ID}" `
