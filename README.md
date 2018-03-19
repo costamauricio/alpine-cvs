@@ -25,5 +25,19 @@ $CVS_PASSWD #cvspass
 RUN
 ---
 ```console
-docker run -d -p 2401:2401 alpine-cvs
+docker run -d -p 2401:2401 costamauricio/alpine-cvs
 ```
+
+DEPLOY
+------
+```console
+sh deploy.sh
+```
+
+### Verify container
+
+`docker ps`
+
+### Stop container
+
+` docker container stop "{CONTAINER_ID}" `
