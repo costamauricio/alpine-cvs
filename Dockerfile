@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk update
-RUN apk add cvs busybox-initscripts openssl
+RUN apk add cvs openssl busybox-extras
 
 ADD files/inetd.conf /etc/inetd.conf
 ADD files/run.sh /
